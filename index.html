@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>headphone.directory — Every headphone. Every amp. Straight to the point.</title>
+<meta name="description" content="A no-nonsense directory of headphones, IEMs, earbuds, amps and DACs. Specs, prices, and straight talk.">
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500&display=swap" rel="stylesheet">
+<style>
+:root {
+  --bg: #f9f9f7;
+  --card-bg: #ffffff;
+  --text: #1a1a1a;
+  --muted: #6b6b6b;
+  --border: #e0e0d8;
+  --accent: #E24B4A;
+  --hover-bg: #f2f2ef;
+}
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: 'IBM Plex Sans', sans-serif; background: var(--bg); color: var(--text); min-height: 100vh; }
+.wrap { max-width: 860px; margin: 0 auto; padding: 0 20px; }
+header { padding: 2rem 0 1.5rem; border-bottom: 1px solid var(--border); }
+.hd-logo { font-family: 'IBM Plex Mono', monospace; font-size: 22px; font-weight: 500; color: var(--text); letter-spacing: -0.5px; }
+.hd-logo span { color: var(--accent); }
+.hd-tagline { font-size: 13px; color: var(--muted); margin-top: 4px; }
+.search-bar { display: flex; gap: 8px; margin: 1.25rem 0 1rem; align-items: center; }
+.search-bar input { flex: 1; height: 36px; padding: 0 12px; border: 1px solid var(--border); border-radius: 6px; font-family: 'IBM Plex Sans', sans-serif; font-size: 14px; background: #fff; color: var(--text); }
+.search-bar input:focus { outline: none; border-color: #aaa; }
+.filters { display: flex; gap: 6px; flex-wrap: wrap; margin-bottom: 1.25rem; }
+.pill { font-size: 12px; padding: 4px 12px; border-radius: 20px; border: 1px solid var(--border); cursor: pointer; background: #fff; color: var(--muted); font-family: 'IBM Plex Sans', sans-serif; transition: all 0.1s; }
+.pill:hover { border-color: #aaa; color: var(--text); }
+.pill.active { background: var(--text); color: #fff; border-color: var(--text); }
+.count { font-size: 12px; color: var(--muted); margin-bottom: 0.75rem; font-family: 'IBM Plex Mono', monospace; }
+.section-label { font-size: 11px; font-weight: 500; color: var(--muted); letter-spacing: 0.08em; text-transform: uppercase; padding: 0.75rem 0 0.25rem; border-top: 1px solid var(--border); font-family: 'IBM Plex Mono', monospace; margin-top: 0.25rem; }
+.row { display: grid; grid-template-columns: 1fr auto; align-items: center; padding: 10px 8px; border-bottom: 1px solid var(--border); gap: 12px; margin: 0 -8px; border-radius: 0; }
+.row:hover { background: var(--hover-bg); border-radius: 6px; border-bottom-color: transparent; }
+.model { font-size: 14px; font-weight: 500; color: var(--text); font-family: 'IBM Plex Mono', monospace; }
+.tag { font-size: 13px; color: var(--muted); margin-top: 2px; }
+.right { display: flex; gap: 8px; align-items: center; white-space: nowrap; }
+.price { font-size: 13px; font-weight: 500; color: var(--text); font-family: 'IBM Plex Mono', monospace; min-width: 48px; text-align: right; }
+.btn { font-size: 12px; padding: 4px 10px; border-radius: 6px; border: 1px solid var(--border); color: var(--muted); text-decoration: none; font-family: 'IBM Plex Sans', sans-serif; cursor: pointer; background: transparent; transition: background 0.1s; }
+.btn.buy { border-color: var(--accent); color: var(--accent); }
+.btn:hover { background: var(--hover-bg); }
+footer { padding: 2rem 0; margin-top: 2rem; border-top: 1px solid var(--border); font-size: 12px; color: var(--muted); font-family: 'IBM Plex Mono', monospace; }
+.loading { padding: 2rem 0; color: var(--muted); font-family: 'IBM Plex Mono', monospace; font-size: 13px; }
+.error { padding: 2rem 0; color: var(--accent); font-family: 'IBM Plex Mono', monospace; font-size: 13px; }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<header>
+  <div class="hd-logo">headphone<span>.directory</span></div>
+  <div class="hd-tagline">Every headphone. Every amp. Straight to the point.</div>
+</header>
+
+<div class="search-bar" style="margin-top:1.25rem">
+  <input type="text" id="search" placeholder="Search by model, brand, or type..." oninput="render()">
+</div>
+
+<div class="filters">
+  <span class="pill active" onclick="setFilter('all',this)">All</span>
+  <span class="pill" onclick="setFilter('headphone',this)">Headphones</span>
+  <span class="pill" onclick="setFilter('iem',this)">IEMs</span>
+  <span class="pill" onclick="setFilter('earbud-wireless',this)">Earbuds</span>
+  <span class="pill" onclick="setFilter('amp',this)">Amps</span>
+  <span class="pill" onclick="setFilter('dac',this)">DACs</span>
+  <span class="pill" onclick="setFilter('under100',this)">Under $100</span>
+  <span class="pill" onclick="setFilter('100-300',this)">$100–$300</span>
+  <span class="pill" onclick="setFilter('300plus',this)">$300+</span>
+</div>
+
+<div class="count" id="count"></div>
+<div id="list"><div class="loading">loading...</div></div>
+
+<footer>
+  headphone.directory &mdash; updated daily &mdash; <a href="https://jims.one" style="color:var(--muted)">part of the golden empire</a>
+</footer>
+
+</div>
+<script>
+let allData = [];
+let activeFilter = 'all';
+
+const SECTION_ORDER = ['Headphones','IEMs','Earbuds','Amps','DACs'];
+
+const TYPE_SECTION = {
+  'headphone': 'Headphones',
+  'headphone-open': 'Headphones',
+  'headphone-closed': 'Headphones',
+  'iem': 'IEMs',
+  'earbud-wireless': 'Earbuds',
+  'amp': 'Amps',
+  'dac': 'DACs'
+};
+
+fetch('data.json?v=' + Date.now())
+  .then(r => { if(!r.ok) throw new Error(r.status); return r.json(); })
+  .then(d => { allData = d; render(); })
+  .catch(e => {
+    document.getElementById('list').innerHTML = '<div class="error">Could not load data.json — ' + e.message + '</div>';
+  });
+
+function setFilter(f, el) {
+  activeFilter = f;
+  document.querySelectorAll('.pill').forEach(p => p.classList.remove('active'));
+  el.classList.add('active');
+  render();
+}
+
+function priceMatch(price, f) {
+  if(f === 'under100') return price < 100;
+  if(f === '100-300') return price >= 100 && price <= 300;
+  if(f === '300plus') return price > 300;
+  return true;
+}
+
+function render() {
+  const q = document.getElementById('search').value.toLowerCase().trim();
+  const filtered = allData.filter(d => {
+    const typeOk = activeFilter === 'all'
+      || d.type === activeFilter
+      || (activeFilter === 'headphone' && d.type.startsWith('headphone'))
+      || priceMatch(d.price, activeFilter);
+    const searchOk = !q
+      || (d.model||'').toLowerCase().includes(q)
+      || (d.brand||'').toLowerCase().includes(q)
+      || (d.tagline||d.tag||'').toLowerCase().includes(q)
+      || (d.type||'').toLowerCase().includes(q);
+    return typeOk && searchOk;
+  });
+
+  document.getElementById('count').textContent =
+    'Showing ' + filtered.length + ' item' + (filtered.length !== 1 ? 's' : '');
+
+  const sections = {};
+  filtered.forEach(d => {
+    const sec = TYPE_SECTION[d.type] || 'Other';
+    if(!sections[sec]) sections[sec] = [];
+    sections[sec].push(d);
+  });
+
+  let html = '';
+  SECTION_ORDER.forEach(sec => {
+    if(!sections[sec]) return;
+    html += '<div class="hd-section"><div class="section-label">' + sec + '</div>';
+    sections[sec].forEach(d => {
+      const label = d.tagline || d.tag || '';
+      const price = d.price ? '$' + d.price : '—';
+      const buyUrl = d.buy_url || d.buy || '#';
+      const specsUrl = d.specs_url || d.specs || '#';
+      const buyTag = buyUrl !== '#'
+        ? '<a href="' + buyUrl + '" class="btn buy" target="_blank" rel="noopener">Buy →</a>'
+        : '';
+      const specsTag = specsUrl !== '#'
+        ? '<a href="' + specsUrl + '" class="btn" target="_blank" rel="noopener">Specs</a>'
+        : '';
+      html += '<div class="row">'
+        + '<div><div class="model">' + (d.brand ? d.brand + ' ' : '') + d.model + '</div>'
+        + '<div class="tag">' + label + '</div></div>'
+        + '<div class="right"><span class="price">' + price + '</span>'
+        + buyTag + specsTag
+        + '</div></div>';
+    });
+    html += '</div>';
+  });
+
+  if(!html) html = '<div class="loading">No results.</div>';
+  document.getElementById('list').innerHTML = html;
+}
+</script>
+</body>
+</html>
