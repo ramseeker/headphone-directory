@@ -74,7 +74,8 @@ footer { padding: 2rem 0; margin-top: 2rem; border-top: 1px solid var(--border);
 <div id="list"><div class="loading">loading...</div></div>
 
 <footer>
-  headphone.directory &mdash; updated daily &mdash; <a href="https://jims.one" style="color:var(--muted)">part of the golden empire</a>
+  headphone.directory &mdash; updated daily &mdash; <a href="https://jims.one" style="color:var(--muted)">part of the golden empire</a><br>
+  <span style="font-size:11px;color:var(--muted);opacity:0.7">Prices are approximate and may vary. As an Amazon Associate we earn from qualifying purchases.</span>
 </footer>
 
 </div>
@@ -146,7 +147,7 @@ function render() {
     html += '<div class="hd-section"><div class="section-label">' + sec + '</div>';
     sections[sec].forEach(d => {
       const label = d.tagline || d.tag || '';
-      const price = d.price ? '$' + d.price : '—';
+      const price = d.price ? '~$' + d.price : '—';
       const buyUrl = d.buy_url || d.buy || '#';
       const specsUrl = d.specs_url || d.specs || '#';
       const buyTag = buyUrl !== '#'
