@@ -119,10 +119,11 @@ function priceMatch(price, f) {
 function render() {
   const q = document.getElementById('search').value.toLowerCase().trim();
   const filtered = allData.filter(d => {
+    const isPriceFilter = ['under100', '100-300', '300plus'].includes(activeFilter);
     const typeOk = activeFilter === 'all'
       || d.type === activeFilter
       || (activeFilter === 'headphone' && d.type.startsWith('headphone'))
-      || priceMatch(d.price, activeFilter);
+      || (isPriceFilter && priceMatch(d.price, activeFilter));
     const searchOk = !q
       || (d.model||'').toLowerCase().includes(q)
       || (d.brand||'').toLowerCase().includes(q)
