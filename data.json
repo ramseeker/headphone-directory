@@ -10,8 +10,7 @@
     "sensitivity": 103,
     "driver": "dynamic",
     "weight": 195,
-    "buy_url": "https://www.amazon.com/Sennheiser-HD-660S2-Open-Back-Headphones/dp/B0BLVG4Q9Y?tag=headphonedirectory-20",
-    "specs_url": "https://en-us.sennheiser.com/audio-headphones-gaming-hd-660s2",
+    "buy_url": "https://www.amazon.com/s?k=Sennheiser+HD+660S2&tag=headphonedirectory-20",
     "released": 2022,
     "added": "2026-05-26"
   },
@@ -26,8 +25,7 @@
     "sensitivity": 91,
     "driver": "planar",
     "weight": 620,
-    "buy_url": "https://www.amazon.com/Audeze-LCD-2-Planar-Magnetic-Headphone/dp/B00PYWHCHE?tag=headphonedirectory-20",
-    "specs_url": "https://www.audeze.com/products/lcd-2",
+    "buy_url": "https://www.amazon.com/s?k=Audeze+LCD-2&tag=headphonedirectory-20",
     "released": 2009,
     "added": "2026-05-26"
   },
@@ -42,8 +40,7 @@
     "sensitivity": null,
     "driver": "dynamic",
     "weight": 250,
-    "buy_url": "https://www.amazon.com/Sony-WH-1000XM5-Canceling-Headphones-call-handling/dp/B09TMQNLBC?tag=headphonedirectory-20",
-    "specs_url": "https://www.sony.com/electronics/headband-headphones/wh-1000xm5",
+    "buy_url": "https://www.amazon.com/s?k=Sony+WH-1000XM5&tag=headphonedirectory-20",
     "released": 2022,
     "added": "2026-05-26"
   },
@@ -58,8 +55,7 @@
     "sensitivity": 104,
     "driver": "dynamic",
     "weight": 345,
-    "buy_url": "https://www.amazon.com/Focal-Clear-Professional-Headphones-Monitoring/dp/B08P5TH6VK?tag=headphonedirectory-20",
-    "specs_url": "https://www.focal.com/en/products/headphones/clear-mg",
+    "buy_url": "https://www.amazon.com/s?k=Focal+Clear+MG&tag=headphonedirectory-20",
     "released": 2020,
     "added": "2026-05-26"
   },
@@ -74,8 +70,7 @@
     "sensitivity": 110,
     "driver": "hybrid",
     "weight": 5,
-    "buy_url": "https://www.amazon.com/Campfire-Audio-Andromeda-In-Ear-Monitors/dp/B08YBK57NL?tag=headphonedirectory-20",
-    "specs_url": "https://www.campfireaudio.com/products/andromeda",
+    "buy_url": "https://www.amazon.com/s?k=Campfire+Audio+Andromeda+2020&tag=headphonedirectory-20",
     "released": 2020,
     "added": "2026-05-26"
   },
@@ -90,8 +85,7 @@
     "sensitivity": 119,
     "driver": "balanced-armature",
     "weight": 6,
-    "buy_url": "https://www.amazon.com/Shure-SE846-Professional-Dual-Driver-Isolating/dp/B00N6TLBBY?tag=headphonedirectory-20",
-    "specs_url": "https://pubs.shure.com/guide/SE846/en-US",
+    "buy_url": "https://www.amazon.com/s?k=Shure+SE846&tag=headphonedirectory-20",
     "released": 2013,
     "added": "2026-05-26"
   },
@@ -106,8 +100,7 @@
     "sensitivity": null,
     "driver": "dynamic",
     "weight": 5,
-    "buy_url": "https://www.amazon.com/Samsung-Galaxy-Buds2-Canceling-Charging/dp/B09CH5DNNZ?tag=headphonedirectory-20",
-    "specs_url": "https://www.samsung.com/us/mobile/mobile-accessories/phones/galaxy-buds2-pro-graphite-sm-r510nzaaxar/",
+    "buy_url": "https://www.amazon.com/s?k=Samsung+Galaxy+Buds2+Pro&tag=headphonedirectory-20",
     "released": 2021,
     "added": "2026-05-26"
   },
@@ -122,8 +115,7 @@
     "sensitivity": null,
     "driver": "dynamic",
     "weight": 4,
-    "buy_url": "https://www.amazon.com/Apple-AirPods-Magsafe-Latest-Model/dp/B0BDHWDR12?tag=headphonedirectory-20",
-    "specs_url": "https://www.apple.com/airpods-pro/",
+    "buy_url": "https://www.amazon.com/s?k=Apple+AirPods+Pro+(2nd+Generation)&tag=headphonedirectory-20",
     "released": 2022,
     "added": "2026-05-26"
   },
@@ -138,8 +130,7 @@
     "sensitivity": null,
     "driver": null,
     "weight": null,
-    "buy_url": "https://www.amazon.com/Schiit-Magni-Headphone-Amplifier-Preamp/dp/B01DH975Q2?tag=headphonedirectory-20",
-    "specs_url": "https://www.schiit.com/products/magni-3",
+    "buy_url": "https://www.amazon.com/s?k=Schiit+Magni+3&tag=headphonedirectory-20",
     "released": 2017,
     "added": "2026-05-26"
   },
@@ -154,8 +145,7 @@
     "sensitivity": null,
     "driver": null,
     "weight": null,
-    "buy_url": "https://www.amazon.com/Schiit-Modi-3-Portable-Headphone/dp/B07XZGZ3V5?tag=headphonedirectory-20",
-    "specs_url": "https://www.schiit.com/products/modi-3",
+    "buy_url": "https://www.amazon.com/s?k=Schiit+Modi+3+&tag=headphonedirectory-20",
     "released": 2019,
     "added": "2026-05-26"
   },
@@ -170,8 +160,7 @@
     "sensitivity": 102,
     "driver": "dynamic",
     "weight": 250,
-    "buy_url": "https://www.amazon.com/dp/B0011YDMIS?tag=headphonedirectory-20",
-    "specs_url": "https://www.beyerdynamic.com/dt-990-pro",
+    "buy_url": "https://www.amazon.com/s?k=Beyerdynamic+DT+990+Pro&tag=headphonedirectory-20",
     "released": 1998,
     "added": "2026-05-26"
   },
@@ -186,8 +175,7 @@
     "sensitivity": 103,
     "driver": "dynamic",
     "weight": 260,
-    "buy_url": "https://www.amazon.com/dp/B018IXHZ5K?tag=headphonedirectory-20",
-    "specs_url": "https://www.meze.com/products/meze-99-classics",
+    "buy_url": "https://www.amazon.com/s?k=Meze+99+Classics&tag=headphonedirectory-20",
     "released": 2015,
     "added": "2026-05-26"
   },
@@ -202,8 +190,7 @@
     "sensitivity": 104,
     "driver": "dynamic",
     "weight": 5,
-    "buy_url": "https://www.amazon.com/dp/B0BLSGS3RT?tag=headphonedirectory-20",
-    "specs_url": "https://7hzaudio.com/products/timado",
+    "buy_url": "https://www.amazon.com/s?k=7Hz+Timado&tag=headphonedirectory-20",
     "released": 2022,
     "added": "2026-05-26"
   },
@@ -218,8 +205,7 @@
     "sensitivity": null,
     "driver": null,
     "weight": null,
-    "buy_url": "https://www.amazon.com/dp/B0BYY2QSQF?tag=headphonedirectory-20",
-    "specs_url": "https://nothing.tech/products/ear-2",
+    "buy_url": "https://www.amazon.com/s?k=Nothing+Ear+(2)&tag=headphonedirectory-20",
     "released": 2023,
     "added": "2026-05-26"
   },
@@ -234,8 +220,7 @@
     "sensitivity": null,
     "driver": null,
     "weight": null,
-    "buy_url": "https://www.amazon.com/dp/B087YTZZ4B?tag=headphonedirectory-20",
-    "specs_url": "https://www.qudelix.com/products/5k",
+    "buy_url": "https://www.amazon.com/s?k=Qudelix+5K&tag=headphonedirectory-20",
     "released": 2020,
     "added": "2026-05-26"
   },
@@ -250,8 +235,7 @@
     "sensitivity": null,
     "driver": null,
     "weight": null,
-    "buy_url": "https://www.amazon.com/dp/B0BKLMYDLY?tag=headphonedirectory-20",
-    "specs_url": "https://www.toppingaudio.com/products/d90se",
+    "buy_url": "https://www.amazon.com/s?k=Topping+D90SE&tag=headphonedirectory-20",
     "released": 2022,
     "added": "2026-05-26"
   },
@@ -266,8 +250,7 @@
     "sensitivity": 103,
     "driver": "planar",
     "weight": 368,
-    "buy_url": "https://www.amazon.com/dp/B08NKT4VGV?tag=headphonedirectory-20",
-    "specs_url": "https://www.hifiman.com/products/ananda",
+    "buy_url": "https://www.amazon.com/s?k=HiFiMan+Ananda&tag=headphonedirectory-20",
     "released": 2020,
     "added": "2026-05-26"
   },
@@ -282,8 +265,7 @@
     "sensitivity": 99,
     "driver": "dynamic",
     "weight": 190,
-    "buy_url": "https://www.amazon.com/dp/B00HVLUR86?tag=headphonedirectory-20",
-    "specs_url": "https://www.audio-technica.com/en-us/ath-m50x",
+    "buy_url": "https://www.amazon.com/s?k=Audio+Technica+ATH-M50x&tag=headphonedirectory-20",
     "released": 2014,
     "added": "2026-05-26"
   },
@@ -298,8 +280,7 @@
     "sensitivity": 107,
     "driver": "dynamic",
     "weight": 4,
-    "buy_url": "https://www.amazon.com/dp/B0CGTSBFKZ?tag=headphonedirectory-20",
-    "specs_url": "https://www.moondroplab.com/products/aria2",
+    "buy_url": "https://www.amazon.com/s?k=Moondrop+Aria+2&tag=headphonedirectory-20",
     "released": 2023,
     "added": "2026-05-26"
   },
@@ -314,8 +295,7 @@
     "sensitivity": null,
     "driver": null,
     "weight": null,
-    "buy_url": "https://www.amazon.com/dp/B0BLJ5QSNN?tag=headphonedirectory-20",
-    "specs_url": "https://www.jbl.com/en-US/products/tour-one",
+    "buy_url": "https://www.amazon.com/s?k=JBL+Tour+One&tag=headphonedirectory-20",
     "released": 2022,
     "added": "2026-05-26"
   },
@@ -330,8 +310,7 @@
     "sensitivity": null,
     "driver": null,
     "weight": null,
-    "buy_url": "https://www.amazon.com/dp/B09C9W7V72?tag=headphonedirectory-20",
-    "specs_url": "https://www.schiit.com/products/asgard-3",
+    "buy_url": "https://www.amazon.com/s?k=Schiit+Asgard+3&tag=headphonedirectory-20",
     "released": 2021,
     "added": "2026-05-26"
   },
@@ -346,8 +325,7 @@
     "sensitivity": 94,
     "driver": "planar",
     "weight": 372,
-    "buy_url": "https://www.amazon.com/dp/B07XNBX71N?tag=headphonedirectory-20",
-    "specs_url": "https://www.hifiman.com/products/headphones/sundara",
+    "buy_url": "https://www.amazon.com/s?k=HiFiMan+Sundara&tag=headphonedirectory-20",
     "released": 2018,
     "added": "2026-05-26"
   },
@@ -362,8 +340,7 @@
     "sensitivity": 99,
     "driver": "dynamic",
     "weight": 185,
-    "buy_url": "https://www.amazon.com/dp/B00HDHHRBY?tag=headphonedirectory-20",
-    "specs_url": "https://www.gradolabs.com/headphones/over-ear/sr325x",
+    "buy_url": "https://www.amazon.com/s?k=Grado+SR325x&tag=headphonedirectory-20",
     "released": 2021,
     "added": "2026-05-26"
   },
@@ -378,8 +355,7 @@
     "sensitivity": 102,
     "driver": "dynamic",
     "weight": 340,
-    "buy_url": "https://www.amazon.com/dp/B07QXQTHQH?tag=headphonedirectory-20",
-    "specs_url": "https://www.sennheiser.com/en-US/products/headphones/momentum-wireless-headphones",
+    "buy_url": "https://www.amazon.com/s?k=Sennheiser+Momentum+3+Wireless&tag=headphonedirectory-20",
     "released": 2019,
     "added": "2026-05-26"
   },
@@ -394,8 +370,7 @@
     "sensitivity": 105,
     "driver": "dynamic",
     "weight": 315,
-    "buy_url": "https://www.amazon.com/dp/B00EBADD7I?tag=headphonedirectory-20",
-    "specs_url": "https://www.akg.com/us/en/p/K712PRO",
+    "buy_url": "https://www.amazon.com/s?k=AKG+K712+Pro&tag=headphonedirectory-20",
     "released": 2010,
     "added": "2026-05-26"
   },
@@ -410,8 +385,7 @@
     "sensitivity": 109,
     "driver": "hybrid",
     "weight": 6,
-    "buy_url": "https://www.amazon.com/dp/B09WDSX4WH?tag=headphonedirectory-20",
-    "specs_url": "https://www.kinera.audio/en/product/tetrys/",
+    "buy_url": "https://www.amazon.com/s?k=Kinera+Tetrys&tag=headphonedirectory-20",
     "released": 2022,
     "added": "2026-05-26"
   },
@@ -426,8 +400,7 @@
     "sensitivity": 98,
     "driver": "dynamic",
     "weight": 3.5,
-    "buy_url": "https://www.amazon.com/dp/B00AQVWS9E?tag=headphonedirectory-20",
-    "specs_url": "https://www.etymotic.com/products/er2se",
+    "buy_url": "https://www.amazon.com/s?k=Etymotic+ER2SE&tag=headphonedirectory-20",
     "released": 2019,
     "added": "2026-05-26"
   },
@@ -442,8 +415,7 @@
     "sensitivity": null,
     "driver": "dynamic",
     "weight": null,
-    "buy_url": "https://www.amazon.com/dp/B09LPN5YVP?tag=headphonedirectory-20",
-    "specs_url": "https://www.sennheiser.com/en-US/products/headphones/momentum-true-wireless-3",
+    "buy_url": "https://www.amazon.com/s?k=Sennheiser+Momentum+True+Wireless+3&tag=headphonedirectory-20",
     "released": 2021,
     "added": "2026-05-26"
   },
@@ -458,8 +430,7 @@
     "sensitivity": null,
     "driver": "dynamic",
     "weight": null,
-    "buy_url": "https://www.amazon.com/dp/B0BLZM6RVH?tag=headphonedirectory-20",
-    "specs_url": "https://www.bose.com/p/earbuds/bose-quietcomfort-earbuds-ii/",
+    "buy_url": "https://www.amazon.com/s?k=Bose+QuietComfort+Earbuds+II&tag=headphonedirectory-20",
     "released": 2022,
     "added": "2026-05-26"
   },
@@ -474,8 +445,7 @@
     "sensitivity": null,
     "driver": null,
     "weight": null,
-    "buy_url": "https://www.amazon.com/dp/B07XFBQRX4?tag=headphonedirectory-20",
-    "specs_url": "https://www.schiit.com/products/lyr-3",
+    "buy_url": "https://www.amazon.com/s?k=Schiit+Lyr+3&tag=headphonedirectory-20",
     "released": 2019,
     "added": "2026-05-26"
   },
@@ -490,8 +460,7 @@
     "sensitivity": null,
     "driver": null,
     "weight": null,
-    "buy_url": "https://www.amazon.com/dp/B0B7F7KJ5N?tag=headphonedirectory-20",
-    "specs_url": "https://www.toppingaudio.com/a90d-intro",
+    "buy_url": "https://www.amazon.com/s?k=Topping+A90D&tag=headphonedirectory-20",
     "released": 2022,
     "added": "2026-05-26"
   },
@@ -506,8 +475,7 @@
     "sensitivity": null,
     "driver": null,
     "weight": null,
-    "buy_url": "https://www.amazon.com/dp/B0BR3NWKSK?tag=headphonedirectory-20",
-    "specs_url": "https://www.chordelectronics.com/products/mojo2",
+    "buy_url": "https://www.amazon.com/s?k=Chord+Mojo+2&tag=headphonedirectory-20",
     "released": 2022,
     "added": "2026-05-26"
   }
