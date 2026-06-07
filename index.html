@@ -137,7 +137,7 @@ function render() {
     'Showing ' + filtered.length + ' item' + (filtered.length !== 1 ? 's' : '');
 
   const sections = {};
-  filtered.forEach(d => {
+  [...filtered].reverse().forEach(d => {
     const sec = TYPE_SECTION[d.type] || 'Other';
     if(!sections[sec]) sections[sec] = [];
     sections[sec].push(d);
