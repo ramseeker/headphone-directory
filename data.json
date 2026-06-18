@@ -2938,5 +2938,50 @@
     "buy_url": "https://www.amazon.com/s?k=RME+ADI-2+DAC+FS&tag=headphonedirectory-20",
     "released": 2020,
     "added": "2026-06-17"
+  },
+  {
+    "id": "seeaudio-yume-ii",
+    "type": "iem",
+    "brand": "SeeAudio",
+    "model": "Yume II",
+    "tagline": "Cohesive hybrid with warm bass and natural mids. A safe recommendation for vocal lovers.",
+    "price": 150,
+    "impedance": 32,
+    "sensitivity": 108,
+    "driver": "hybrid",
+    "weight": 6,
+    "buy_url": "https://www.amazon.com/s?k=SeeAudio+Yume+II&tag=headphonedirectory-20",
+    "released": 2022,
+    "added": "2026-06-18"
+  },
+  {
+    "id": "schiit-magni-unity",
+    "type": "amp",
+    "brand": "Schiit",
+    "model": "Magni Unity",
+    "tagline": "Powerful desktop amplifier with low distortion and high current. Drives almost anything cleanly.",
+    "price": 250,
+    "impedance": null,
+    "sensitivity": null,
+    "driver": null,
+    "weight": null,
+    "buy_url": "https://www.amazon.com/s?k=Schiit+Magni+Unity&tag=headphonedirectory-20",
+    "released": 2023,
+    "added": "2026-06-18"
+  },
+  {
+    "id": "topping-e50",
+    "type": "dac",
+    "brand": "Topping",
+    "model": "E50",
+    "tagline": "Accurate DAC with excellent measured performance and balanced output. A transparent source for critical listening.",
+    "price": 250,
+    "impedance": null,
+    "sensitivity": null,
+    "driver": null,
+    "weight": null,
+    "buy_url": "https://www.amazon.com/s?k=Topping+E50&tag=headphonedirectory-20",
+    "released": 2022,
+    "added": "2026-06-18"
   }
 ]
