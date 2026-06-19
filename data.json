@@ -2983,5 +2983,35 @@
     "buy_url": "https://www.amazon.com/s?k=Topping+E50&tag=headphonedirectory-20",
     "released": 2022,
     "added": "2026-06-18"
+  },
+  {
+    "id": "thieaudio-monarch-mkii",
+    "type": "iem",
+    "brand": "ThieAudio",
+    "model": "Monarch MkII",
+    "tagline": "Lush and layered with incredible separation. A summit-fi hybrid for analytical listeners.",
+    "price": 830,
+    "impedance": 18,
+    "sensitivity": 108,
+    "driver": "hybrid",
+    "weight": 20,
+    "buy_url": "https://www.amazon.com/s?k=ThieAudio+Monarch+MkII&tag=headphonedirectory-20",
+    "released": 2022,
+    "added": "2026-06-19"
+  },
+  {
+    "id": "topping-e30",
+    "type": "dac",
+    "brand": "Topping",
+    "model": "E30",
+    "tagline": "Clean, transparent, and feature-packed. An excellent entry-level DAC for accurate digital conversion.",
+    "price": 149,
+    "impedance": null,
+    "sensitivity": null,
+    "driver": null,
+    "weight": null,
+    "buy_url": "https://www.amazon.com/s?k=Topping+E30&tag=headphonedirectory-20",
+    "released": 2020,
+    "added": "2026-06-19"
   }
 ]
