@@ -3073,5 +3073,35 @@
     "buy_url": "https://www.amazon.com/s?k=Topping+D90&tag=headphonedirectory-20",
     "released": 2020,
     "added": "2026-06-20"
+  },
+  {
+    "id": "kiwi-ears-quintet",
+    "type": "iem",
+    "brand": "Kiwi Ears",
+    "model": "Quintet",
+    "tagline": "Five-driver hybrid IEMs offering balanced tuning with good bass and sparkling treble. Engaging for music enthusiasts.",
+    "price": 220,
+    "impedance": 30,
+    "sensitivity": 106,
+    "driver": "hybrid",
+    "weight": 12,
+    "buy_url": "https://www.amazon.com/s?k=Kiwi+Ears+Quintet&tag=headphonedirectory-20",
+    "released": 2023,
+    "added": "2026-06-21"
+  },
+  {
+    "id": "schiit-magni-heresy",
+    "type": "amp",
+    "brand": "Schiit",
+    "model": "Magni Heresy",
+    "tagline": "High-performance headphone amp with neutral, clean amplification and plenty of power. Great for most headphones.",
+    "price": 109,
+    "impedance": null,
+    "sensitivity": null,
+    "driver": null,
+    "weight": null,
+    "buy_url": "https://www.amazon.com/s?k=Schiit+Magni+Heresy&tag=headphonedirectory-20",
+    "released": 2019,
+    "added": "2026-06-21"
   }
 ]
