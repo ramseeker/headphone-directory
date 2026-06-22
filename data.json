@@ -3103,5 +3103,50 @@
     "buy_url": "https://www.amazon.com/s?k=Schiit+Magni+Heresy&tag=headphonedirectory-20",
     "released": 2019,
     "added": "2026-06-21"
+  },
+  {
+    "id": "kiwi-ears-cadenza",
+    "type": "iem",
+    "brand": "Kiwi Ears",
+    "model": "Cadenza",
+    "tagline": "Surprisingly mature single-dynamic IEM with balanced sound. An outstanding budget performer.",
+    "price": 35,
+    "impedance": 32,
+    "sensitivity": 110,
+    "driver": "dynamic",
+    "weight": 10,
+    "buy_url": "https://www.amazon.com/s?k=Kiwi+Ears+Cadenza&tag=headphonedirectory-20",
+    "released": 2022,
+    "added": "2026-06-22"
+  },
+  {
+    "id": "truthear-x-crinacle-zero",
+    "type": "iem",
+    "brand": "Truthear",
+    "model": "x Crinacle Zero",
+    "tagline": "The original tuning target master. Neutral with a touch of warmth, ideal for beginners.",
+    "price": 50,
+    "impedance": 32,
+    "sensitivity": 115,
+    "driver": "dynamic",
+    "weight": 10,
+    "buy_url": "https://www.amazon.com/s?k=Truthear+x+Crinacle+Zero&tag=headphonedirectory-20",
+    "released": 2022,
+    "added": "2026-06-22"
+  },
+  {
+    "id": "schiit-modi-plus",
+    "type": "dac",
+    "brand": "Schiit",
+    "model": "Modi+",
+    "tagline": "Entry-level DAC with accurate conversion and multiple inputs. A solid foundation for any system.",
+    "price": 99,
+    "impedance": null,
+    "sensitivity": null,
+    "driver": null,
+    "weight": null,
+    "buy_url": "https://www.amazon.com/s?k=Schiit+Modi+Plus&tag=headphonedirectory-20",
+    "released": 2021,
+    "added": "2026-06-22"
   }
 ]
